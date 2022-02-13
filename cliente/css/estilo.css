@@ -1,0 +1,51 @@
+body{
+    background-color: #fefae0;
+    text-align:center ;
+}
+main{
+    width: 50%;
+    margin: 35px auto;
+    text-align: center;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin:0px;
+    text-align: center;
+    align-self: center;
+}
+a:link{
+    color: #bb3e03;
+    text-decoration:  none;
+
+}
+a:visited{
+    color: #bb3e03;
+    text-decoration: none;
+
+}
+a:active{
+    color: #bb3e03;
+    text-decoration: underline;
+}
+th{
+    color: #f1faee;
+    background-color:  #1d3557;
+}
+tr:nth-child(even){
+    background-color: #f1faee;
+}
+tr:nth-child(odd){
+    background-color: #a8dadc;
+}
+h1,h2,h3,legend{
+    color: #1d3557;
+}
+
+#form-ingreso{
+    border: 1px solid black;
+    margin:  15px auto;
+    padding: 20px;
+
+}
+

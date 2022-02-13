@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ventana Usuario</title>
+    <link rel="stylesheet" href="/cliente/css/estilo.css">
+</head>
+<body>
+    
+    <a href="/cliente/index.html">Cerrar Sesion</a>
+
+    
+    <h1>Ventana de Prestamos</h1>
+    <br>
+
+    <h3>Tus Prestamos</h3>
+
+    <div>
+        <table id="table-prestados">
+
+            <thead>         
+                <th>Titulo</th>
+                <th>Autor</th>
+                <th>Fecha del Prestamo</th>
+                <th>Fecha de Devolución</th>    
+            </thead>
+
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+    <br> <br>
+    <hr>
+
+    <h3>Realizar un prestamo</h3>
+
+    <div>
+
+        <table id="table-seleccion">
+            <legend>Libros Seleccionados</legend>
+            <thead>
+                <th>Código</th>
+                <th>Titulo</th>
+                <th>Autor</th>
+                <th>Cantidad</th>   
+            </thead>
+
+            <tbody>
+               
+            </tbody>
+
+        </table>
+        <button id="btn-confirmar" name="btn-confirmar">Confirmar Prestamo</button>
+        <button id="btn-cancelar" name="btn-cancelar">Cancelar Prestamo</button>
+        <br> <br>
+
+        <table id="table-libros">
+            <thead>
+                <legend>Libros disponibles</legend>
+                <th>Código</th>
+                <th>Titulo</th>
+                <th>Autor</th>
+                <th>Cantidad</th>    
+                <th></th>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+
+
+    </div>
+
+
+    <script src="/cliente/scripts/user.js"></script>
+</body>
+</html>

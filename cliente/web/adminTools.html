@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrador</title>
+    <link rel="stylesheet" href="/cliente/css/estilo.css">
+</head>
+<body>
+    <a href="/cliente/index.html">Cerrar Sesion</a>
+    <main>
+        <h2>Añadir Libro</h2>
+        <div id="form-ingreso">
+            <label for="add-codigo">Codigo del Libro</label>
+            <input type="text" id="add-codigo" name="add-codigo">
+            <br><br>
+
+            <label for="add-titulo">Título Libro</label>
+            <input type="text" id="add-titulo" name="add-titulo">
+    
+            <br><br>
+    
+            <label for="add-autor">Autor del Libro</label>
+            <input type="text" id="add-autor" name="add-autor">
+    
+            <br><br>
+    
+            <label for="add-cant">Cantidad</label>
+            <input type="number" name="add-cant" id="add-cant">
+            <br><br>
+            
+            <button id="agregar-btn">Agregar Libro</button>
+            <br/>
+            <br>
+
+        </div>
+
+        <h2>Libros de la Biblioteca</h2>
+
+
+            <input type="text" placeholder="Buscar por código" id="busqueda-admin"/>
+            <button id="buscar-btn">Buscar</button>
+           
+            <br>
+
+        <table id="table">
+           
+            <thead>
+
+                <th>Código</th>
+                <th>Titulo</th>
+                <th>Autor</th>
+                <th>Cantidad</th>    
+
+            </thead>
+
+            <tbody id="ttbody">
+
+            </tbody>
+
+        </table>
+    </main>
+    <script src="/cliente/scripts/admin.js"></script>
+
+</body>
+</html>
